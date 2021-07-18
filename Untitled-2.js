@@ -94,7 +94,7 @@ function animal(_name,_age,_height,_color,){
 	this._name=_name || "unknown";
 	this._age=_age || "unknown";
 	this._height=_height || "unknown";
-	this._color=_color || "unknown";
+	this._color=_color || "unnown";
 	this.talk=function(){
 		alert('my name is'+this._name+' i have'+this._age+ 'years old'+ 'my height is'+this._height+'and my hair color is' + this._color)
 	}
